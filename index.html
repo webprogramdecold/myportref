@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio site for Farrukh Kasimkhodja, Computer Science student at University of Hertfordshire">
+    <title>Farrukh Kasimkhodja | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <nav id="main-nav" aria-label="Main navigation">
+            <div class="logo" aria-label="FK logo">FK</div>
+            <button id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+                <span class="sr-only">Menu</span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <section id="hero" class="section-contrast">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Farrukh Kasimkhodja</h1>
+                    <p class="tagline">Second-Year Computer Science Student</p>
+                    <p>Currently pursuing a BSc in Computer Science with specialization in Artificial Intelligence at the University of Hertfordshire. Passionate about technology innovation and problem-solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <div class="about-content">
+                    <p>I'm a 19-year-old second-year Computer Science student specializing in Artificial Intelligence at the University of Hertfordshire. I currently reside in Hatfield, UK during the academic year and spend my holidays in Tashkent, Uzbekistan.</p>
+                    <p>My journey in technology is driven by a passion for solving real-world problems through innovative solutions. I'm particularly interested in the intersection of AI and practical applications that can enhance everyday life.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <h3>Location</h3>
+                            <p>Hatfield, UK / Tashkent, Uzbekistan</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Education</h3>
+                            <p>BSc Computer Science (AI)</p>
+                            <p>University of Hertfordshire</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Focus Areas</h3>
+                            <p>AI, Machine Learning, Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-contrast" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading">Technical Skills</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Programming</h3>
+                        <ul class="skill-list">
+                            <li>Python (Advanced)</li>
+                            <li>Java (Intermediate)</li>
+                            <li>SQL (Proficient)</li>
+                            <li>C++ (Foundation)</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-list">
+                            <li>TensorFlow</li>
+                            <li>PyTorch</li>
+                            <li>Computer Vision</li>
+                            <li>Neural Networks</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <h3>Web Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>Docker</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" aria-labelledby="portfolio-heading">
+            <div class="container">
+                <h2 id="portfolio-heading">Featured Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>AI Body Measurement System</h3>
+                            <p class="project-category">AI & Image Processing</p>
+                            <p>An innovative application leveraging computer vision and machine learning to provide accurate body measurements through smartphone camera input.</p>
+                            <div class="tech-stack">
+                                <h4>Technologies</h4>
+                                <ul class="tech-list">
+                                    <li>Python</li>
+                                    <li>TensorFlow</li>
+                                    <li>OpenCV</li>
+                                    <li>Flask</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>AI Image Generation Platform</h3>
+                            <p class="project-category">AI & Creative Computing</p>
+                            <p>A sophisticated platform that generates unique, context-aware images using advanced AI models and style transfer techniques.</p>
+                            <div class="tech-stack">
+                                <h4>Technologies</h4>
+                                <ul class="tech-list">
+                                    <li>Python</li>
+                                    <li>PyTorch</li>
+                                    <li>React</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Accessible Portfolio Platform</h3>
+                            <p class="project-category">Web Development</p>
+                            <p>A fully responsive and accessible portfolio website built with modern web technologies and best practices in accessibility.</p>
+                            <div class="tech-stack">
+                                <h4>Technologies</h4>
+                                <ul class="tech-list">
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>ARIA</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Farrukh Kasimkhodja</p>
+                <p>Created for Accessibility and Usability Module - University of Hertfordshire</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
